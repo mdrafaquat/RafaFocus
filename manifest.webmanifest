@@ -1,0 +1,17 @@
+{
+  "name": "RafaFocus — Focus. Learn. Finish.",
+  "short_name": "RafaFocus",
+  "description": "A student-focused learning and productivity workspace with a YouTube Learning Player, focus timer, study tools and productivity features.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b16",
+  "theme_color": "#0b1020",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}
