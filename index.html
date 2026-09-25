@@ -111,8 +111,8 @@ body.focus-mode .secondary-section{display:none}body.focus-mode .focus-tools-bar
 /* Clean premium alignment */
 .section-title{gap:18px;align-items:center}.tool-card{overflow:hidden}.tool-grid{align-items:stretch}.exam-card,.calculator-card{min-width:0}.exam-card .exam-form{background:linear-gradient(180deg,rgba(17,26,53,.72),rgba(8,14,35,.72));border:1px solid rgba(130,155,220,.16);border-radius:18px;padding:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
 .visual-picker-button{min-height:52px;background:linear-gradient(180deg,rgba(20,30,59,.95),rgba(8,14,35,.95));border-color:rgba(130,155,220,.22);box-shadow:0 8px 24px rgba(0,0,0,.14);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}.visual-picker-button:hover,.visual-picker-button:focus-visible{transform:translateY(-1px);border-color:rgba(82,157,255,.7);box-shadow:0 12px 28px rgba(35,117,255,.13);outline:none}.visual-popup{padding:16px;border-radius:20px;background:linear-gradient(180deg,#0c1430,#070c20);border-color:rgba(130,155,220,.24);box-shadow:0 26px 70px rgba(0,0,0,.58),0 0 0 1px rgba(90,140,255,.06);backdrop-filter:blur(18px)}.calendar-head strong{font-size:15px}.calendar-nav,.calendar-today{min-width:38px;min-height:36px;border-radius:11px}.calendar-day{font-weight:650;min-height:38px}.calendar-day.selected{box-shadow:0 6px 18px rgba(70,126,255,.28)}.calendar-footer{padding-top:10px;border-top:1px solid rgba(130,155,220,.12)}.time-picker-head{padding-bottom:10px;border-bottom:1px solid rgba(130,155,220,.12)}.time-wheel{padding:14px 2px}.time-wheel-col button{min-height:38px}.time-wheel-col output{font-size:31px}.ampm-toggle button{min-height:38px}.saved-countdown{padding:14px;border-radius:15px;background:linear-gradient(135deg,rgba(18,28,58,.76),rgba(8,14,31,.8));border-color:rgba(130,155,220,.15);box-shadow:0 8px 24px rgba(0,0,0,.12);transition:transform .18s ease,border-color .18s ease}.saved-countdown:hover{transform:translateY(-1px);border-color:rgba(82,157,255,.35)}.saved-countdown-main strong{font-size:14px}.saved-countdown-main span{color:#79b5ff;font-weight:850;font-variant-numeric:tabular-nums;font-size:13px}.saved-countdown-main small{display:block;color:#687694;font-size:10px;margin-top:4px}.saved-countdown.is-expired .saved-countdown-main span{color:#ff9a9a}.saved-countdown-actions{align-self:center}
-.saved-countdowns-head{display:flex;justify-content:space-between;align-items:center;margin:16px 0 8px;color:#dce5f7}.saved-countdowns-head span{font-size:12px;color:#7f8cab}.saved-countdowns{display:grid;gap:8px;max-height:300px;overflow:auto;padding-right:2px}.saved-countdown{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025)}.saved-countdown-main{min-width:0}.saved-countdown-main strong{display:block;color:#eef4ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.saved-countdown-main span{display:block;color:#8290ad;font-size:11px;margin-top:3px}.saved-countdown-actions{display:flex;gap:6px}.saved-countdown-actions button{min-height:34px}.calculator .calc-scientific{grid-template-columns:repeat(6,1fr)}.calculator .calc-scientific button{min-height:38px;font-size:12px}.calculator .calc-grid{grid-template-columns:repeat(5,1fr)}.calculator .calc-grid button{min-height:46px}.calculator .calc-equals{grid-column:span 2}.calculator .calc-display{min-height:100px}.calculator-card{display:flex;flex-direction:column}.calculator-card .calculator{flex:1}.countdown-grid{gap:8px}.countdown-grid>div{min-width:0}
-@media(max-width:900px){.calculator .calc-scientific{grid-template-columns:repeat(5,1fr)}.calculator .calc-grid{grid-template-columns:repeat(5,1fr)}}
+.saved-countdowns-head{display:flex;justify-content:space-between;align-items:center;margin:16px 0 8px;color:#dce5f7}.saved-countdowns-head span{font-size:12px;color:#7f8cab}.saved-countdowns{display:grid;gap:8px;max-height:300px;overflow:auto;padding-right:2px}.saved-countdown{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025)}.saved-countdown-main{min-width:0}.saved-countdown-main strong{display:block;color:#eef4ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.saved-countdown-main span{display:block;color:#8290ad;font-size:11px;margin-top:3px}.saved-countdown-actions{display:flex;gap:6px}.saved-countdown-actions button{min-height:34px}.calculator .calc-scientific{grid-template-columns:repeat(6,1fr)}.calculator .calc-scientific button{min-height:38px;font-size:12px}.calculator .calc-grid{grid-template-columns:repeat(4,1fr)}.calculator .calc-grid button{min-height:52px}.calculator .calc-equals{grid-column:span 2}.calculator .calc-display{min-height:100px}.calculator-card{display:flex;flex-direction:column}.calculator-card .calculator{flex:1}.countdown-grid{gap:8px}.countdown-grid>div{min-width:0}
+@media(max-width:900px){.calculator .calc-scientific{grid-template-columns:repeat(5,1fr)}.calculator .calc-grid{grid-template-columns:repeat(4,1fr)}}
 
 /* Premium countdown calendar selector */
 .calendar-title-group{display:flex;align-items:center;justify-content:center;gap:4px;min-width:0}
@@ -130,6 +130,34 @@ body.focus-mode .secondary-section{display:none}body.focus-mode .focus-tools-bar
 .countdown-grid strong{font-variant-numeric:tabular-nums;letter-spacing:-.02em}.saved-countdown{min-width:0}.saved-countdown-actions{flex-shrink:0}
 .notes-card:fullscreen{width:100vw;height:100vh;max-width:none;box-sizing:border-box;margin:0;padding:28px;border:0;border-radius:0;background:#05091c}.notes-card:fullscreen .quick-notes{min-height:calc(100vh - 150px)!important;resize:none}
 .quick-notes{display:block;width:100%;box-sizing:border-box;line-height:1.65;letter-spacing:.01em;resize:vertical;outline:none;transition:border-color .2s ease,box-shadow .2s ease}.quick-notes:focus{border-color:rgba(46,140,255,.45)!important;box-shadow:0 0 0 3px rgba(46,140,255,.08)}
+
+/* Countdown picker cleanup + full calendar visibility */
+.exam-card{overflow:visible}
+.exam-card .visual-field{position:relative;z-index:2}
+.exam-card .exam-form{position:relative;z-index:3}
+.exam-card .visual-popup{max-height:none;overflow:visible}
+.exam-card .calendar-grid{grid-template-columns:repeat(7,minmax(0,1fr));grid-auto-rows:36px}
+.exam-card .calendar-day{width:100%;height:36px;min-height:36px;box-sizing:border-box}
+
+.exam-card .visual-picker-button{min-height:48px}
+.exam-card .visual-popup{width:min(360px,calc(100vw - 48px));box-sizing:border-box;padding:14px;border-radius:18px;background:rgba(7,13,31,.98);border:1px solid rgba(120,155,220,.20);box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.025);backdrop-filter:blur(18px)}
+.exam-card .calendar-head{margin-bottom:12px}
+.exam-card .calendar-nav,.exam-card .calendar-today{min-height:34px;padding:7px 11px;border-radius:10px}
+.exam-card .calendar-title-group{gap:2px}
+.exam-card .calendar-title-btn{padding:7px 9px}
+.exam-card .calendar-week{gap:5px;margin-bottom:4px}
+.exam-card .calendar-grid{gap:5px}
+.exam-card .calendar-day{min-height:36px;aspect-ratio:auto;font-size:12px}
+.exam-card .calendar-footer{padding-top:10px;border-top:1px solid rgba(120,155,220,.10)}
+.exam-card .calendar-done{color:#fff;background:rgba(46,140,255,.14);border-color:rgba(46,140,255,.30)}
+.exam-card .time-picker-head{padding-bottom:11px;border-bottom:1px solid rgba(120,155,220,.10)}
+.exam-card .time-picker-head div{display:grid;gap:2px}
+.exam-card .time-picker-head small{color:#71809e;font-size:10px}
+.exam-card .time-wheel{padding:12px 0 4px}
+.exam-card .time-wheel-col button{min-height:34px}
+.exam-card .time-wheel-col output{font-size:28px}
+.exam-card .ampm-toggle button{min-height:34px}
+@media(max-width:700px){.exam-card .visual-popup{position:fixed;left:50%;right:auto;top:50%;transform:translate(-50%,-50%);z-index:1000;width:min(380px,calc(100vw - 20px));margin:0;max-height:calc(100vh - 24px);overflow:auto}.exam-card .calendar-grid{grid-auto-rows:34px}.exam-card .calendar-day{min-height:34px;height:34px}}
 </style>
 <script type="application/ld+json">
 {
@@ -262,7 +290,7 @@ body.focus-mode .secondary-section{display:none}body.focus-mode .focus-tools-bar
 
 <section class="section secondary-section" id="study-tools-section"><div class="section-title"><div><span class="eyebrow">STUDY TOOLS</span><h2>Countdown &amp; Calculator</h2><p>Plan an exam date and time, or solve calculations in the same focused workspace.</p></div></div><div class="tool-grid">
 <article class="tool-card exam-card" id="exam-card"><div class="section-title"><div><h2>Countdown</h2><p>Choose the exam date and time visually. No manual date or time entry.</p></div><button id="examFullscreen" class="secondary-btn" type="button">⛶ Full Screen</button></div><div class="exam-form"><label class="field-label">Exam name<input id="examName" type="text" maxlength="100" placeholder="e.g. Bihar Board Mathematics"></label><div class="picker-row"><div class="visual-field"><span>Exam Date</span><button id="examDateButton" class="visual-picker-button" type="button">📅 <strong id="examDateLabel">Choose date</strong></button><div id="calendarPopup" class="visual-popup" hidden></div></div><div class="visual-field"><span>Exam Time</span><button id="examTimeButton" class="visual-picker-button" type="button">🕐 <strong id="examTimeLabel">Choose time</strong></button><div id="timePopup" class="visual-popup time-popup" hidden></div></div></div><div class="exam-actions"><button id="saveExamButton" class="primary-btn" type="button">Save Countdown</button><button id="editExamButton" class="secondary-btn" type="button" hidden>Edit</button><button id="deleteExamButton" class="danger-btn" type="button" hidden>Delete</button><button id="clearExamButton" class="secondary-btn" type="button">Clear</button></div></div><div id="examStatus" class="exam-status">No countdown saved.</div><div id="examCountdown" class="countdown-grid"><div><strong id="examDays">0</strong><span>Days</span></div><div><strong id="examHours">00</strong><span>Hours</span></div><div><strong id="examMinutes">00</strong><span>Minutes</span></div><div><strong id="examSeconds">00</strong><span>Seconds</span></div></div><div class="saved-countdowns-head"><strong>Saved Countdowns</strong><span id="countdownCount">0 saved</span></div><div id="savedCountdowns" class="saved-countdowns"></div></article>
-<article class="tool-card calculator-card" id="calculator-card"><div class="section-title"><div><h2>Calculator</h2><p>Basic + scientific calculator with memory, history and keyboard support.</p></div><button id="calculatorFullscreen" class="secondary-btn" type="button">⛶ Full Screen</button></div><div class="calculator"><div class="calc-display"><div id="calcExpression" class="calc-expression"></div><div id="calcResult" class="calc-result">0</div></div><div class="calc-memory"><button data-calc="MC">MC</button><button data-calc="MR">MR</button><button data-calc="M+">M+</button><button data-calc="M-">M−</button><button id="calcCopy" type="button">Copy</button></div><div class="calc-scientific"><button data-calc="sqrt">√</button><button data-calc="square">x²</button><button data-calc="power">xʸ</button><button data-calc="reciprocal">1/x</button><button data-calc="factorial">n!</button><button data-calc="abs">|x|</button><button data-calc="floor">⌊x⌋</button><button data-calc="ceil">⌈x⌉</button><button data-calc="mod">mod</button><button data-calc="pi">π</button><button data-calc="e">e</button><button data-calc="sin">sin</button><button data-calc="cos">cos</button><button data-calc="tan">tan</button><button data-calc="log">log</button><button data-calc="ln">ln</button><button data-calc="angle">DEG</button></div><div class="calc-grid"><button class="calc-danger" data-calc="C">C</button><button data-calc="CE">CE</button><button data-calc="back">⌫</button><button data-calc="(">(</button><button data-calc=")">)</button><button data-calc="%">%</button><button data-calc="7">7</button><button data-calc="8">8</button><button data-calc="9">9</button><button class="calc-op" data-calc="/">÷</button><button data-calc="4">4</button><button data-calc="5">5</button><button data-calc="6">6</button><button class="calc-op" data-calc="*">×</button><button data-calc="1">1</button><button data-calc="2">2</button><button data-calc="3">3</button><button class="calc-op" data-calc="-">−</button><button data-calc="0">0</button><button data-calc=".">.</button><button data-calc="Ans">Ans</button><button class="calc-op" data-calc="+">+</button><button class="calc-equals" data-calc="=">=</button></div><div class="calc-history-head"><strong>History</strong><button id="clearCalcHistory" class="secondary-btn" type="button">Clear history</button></div><div id="calcHistory" class="calc-history"></div></div></article></div></section>
+<article class="tool-card calculator-card" id="calculator-card"><div class="section-title"><div><h2>Calculator</h2><p>Basic + scientific calculator with memory, history and keyboard support.</p></div><button id="calculatorFullscreen" class="secondary-btn" type="button">⛶ Full Screen</button></div><div class="calculator"><div class="calc-display"><div id="calcExpression" class="calc-expression"></div><div id="calcResult" class="calc-result">0</div></div><div class="calc-memory"><button data-calc="MC">MC</button><button data-calc="MR">MR</button><button data-calc="M+">M+</button><button data-calc="M-">M−</button><button id="calcCopy" type="button">Copy</button></div><div class="calc-scientific"><button data-calc="sqrt">√</button><button data-calc="square">x²</button><button data-calc="power">xʸ</button><button data-calc="reciprocal">1/x</button><button data-calc="factorial">n!</button><button data-calc="abs">|x|</button><button data-calc="floor">⌊x⌋</button><button data-calc="ceil">⌈x⌉</button><button data-calc="mod">mod</button><button data-calc="pi">π</button><button data-calc="e">e</button><button data-calc="sin">sin</button><button data-calc="cos">cos</button><button data-calc="tan">tan</button><button data-calc="log">log</button><button data-calc="ln">ln</button><button data-calc="angle">DEG</button></div><div class="calc-grid"><button class="calc-danger" data-calc="C">C</button><button data-calc="CE">CE</button><button data-calc="back">⌫</button><button data-calc="%">%</button><button data-calc="7">7</button><button data-calc="8">8</button><button data-calc="9">9</button><button class="calc-op" data-calc="/">÷</button><button data-calc="4">4</button><button data-calc="5">5</button><button data-calc="6">6</button><button class="calc-op" data-calc="*">×</button><button data-calc="1">1</button><button data-calc="2">2</button><button data-calc="3">3</button><button class="calc-op" data-calc="-">−</button><button data-calc="(">(</button><button data-calc="0">0</button><button data-calc=")">)</button><button class="calc-op" data-calc="+">+</button><button data-calc=".">.</button><button data-calc="Ans">Ans</button><button class="calc-equals" data-calc="=">=</button></div><div class="calc-history-head"><strong>History</strong><button id="clearCalcHistory" class="secondary-btn" type="button">Clear history</button></div><div id="calcHistory" class="calc-history"></div></div></article></div></section>
 <section class="section secondary-section" id="focus-section"><div class="section-title"><div><h2>Student Study &amp; Productivity Tools</h2><p>Useful learning and productivity tools that support focused study without taking attention away from your lesson.</p></div></div>
 <div class="tool-grid">
 <article class="tool-card"><div class="section-title"><div><h2>Digital Study Clock</h2><p>A simple digital clock for study sessions, updated live.</p></div></div><div id="clockDisplay" class="clock-display" aria-label="Digital study clock"><div id="clockTime">--:--:--</div><div id="clockDate">Loading date...</div><button id="clockFullscreenButton" class="secondary-btn tool-fullscreen-btn" type="button">⛶ Full Screen</button><button id="clockExitFullscreenButton" class="secondary-btn fullscreen-exit-btn" type="button">↩ Exit Full Screen</button></div></article>
@@ -458,63 +486,153 @@ let recentUrls=loadRecent();
 function saveRecent(){try{localStorage.setItem(RECENT_KEY,JSON.stringify(recentUrls.slice(0,10)))}catch{}}
 function renderRecent(){if(!recentUrlsEl)return;if(!recentUrls.length){recentUrlsEl.innerHTML='<div class="recent-empty">No recent YouTube lessons yet.</div>';return}recentUrlsEl.innerHTML=recentUrls.map((u,i)=>`<div class="recent-item"><a class="recent-link" href="${u.url.replace(/"/g,"&quot;")}" data-recent-index="${i}" title="${u.url.replace(/"/g,"&quot;")}">${u.url}</a><span class="recent-date">${new Date(u.at).toLocaleDateString()}</span><button class="recent-delete" data-delete-recent="${i}" type="button" aria-label="Delete recent URL">✕</button></div>`).join("")}
 function addRecentUrl(url){if(!url)return;recentUrls=recentUrls.filter(x=>x.url!==url);recentUrls.unshift({url,at:Date.now()});recentUrls=recentUrls.slice(0,10);saveRecent();renderRecent()}
-recentUrlsEl.addEventListener("click",e=>{const del=e.target.closest("[data-delete-recent]");if(del){e.preventDefault();recentUrls.splice(Number(del.dataset.deleteRecent),1);saveRecent();renderRecent();return}const link=e.target.closest("[data-recent-index]");if(link){e.preventDefault();urlInput.value=link.href;playVideo()}})
-document.getElementById("clearRecentButton").addEventListener("click",()=>{if(!recentUrls.length)return;if(!confirm("Clear all recent YouTube URLs?"))return;recentUrls=[];saveRecent();renderRecent()});renderRecent();
+if(recentUrlsEl){recentUrlsEl.addEventListener("click",e=>{const del=e.target.closest("[data-delete-recent]");if(del){e.preventDefault();recentUrls.splice(Number(del.dataset.deleteRecent),1);saveRecent();renderRecent();return}const link=e.target.closest("[data-recent-index]");if(link){e.preventDefault();if(urlInput){urlInput.value=link.href;if(typeof playVideo==="function")playVideo()}}})}
+const clearRecentButton=document.getElementById("clearRecentButton");
+if(clearRecentButton)clearRecentButton.addEventListener("click",()=>{if(!recentUrls.length)return;if(!confirm("Clear all recent YouTube URLs?"))return;recentUrls=[];saveRecent();renderRecent()});
+renderRecent();
 
 
-/* Countdown with visual calendar/time controls and multiple saved countdowns */
-const examName=document.getElementById("examName"),examDateButton=document.getElementById("examDateButton"),examTimeButton=document.getElementById("examTimeButton"),examDateLabel=document.getElementById("examDateLabel"),examTimeLabel=document.getElementById("examTimeLabel"),calendarPopup=document.getElementById("calendarPopup"),timePopup=document.getElementById("timePopup"),examStatus=document.getElementById("examStatus"),examDays=document.getElementById("examDays"),examHours=document.getElementById("examHours"),examMinutes=document.getElementById("examMinutes"),examSeconds=document.getElementById("examSeconds"),saveExamButton=document.getElementById("saveExamButton"),editExamButton=document.getElementById("editExamButton"),deleteExamButton=document.getElementById("deleteExamButton"),clearExamButton=document.getElementById("clearExamButton"),savedCountdownsEl=document.getElementById("savedCountdowns"),countdownCountEl=document.getElementById("countdownCount");
-const EXAM_KEY="rafaFocusCountdowns_v2";let countdowns=[],activeCountdownId=null,examDraftDate=null,examDraftHour=12,examDraftMinute=0,examDraftAmPm="AM",calendarMonth=new Date(new Date().getFullYear(),new Date().getMonth(),1);
-try{const raw=JSON.parse(localStorage.getItem(EXAM_KEY)||"[]");countdowns=(Array.isArray(raw)?raw:raw&&raw.timestamp?[raw]:[]).map(x=>({id:String(x.id||`cd_${Date.now()}_${Math.random().toString(36).slice(2,7)}`),name:String(x.name||"Countdown").trim(),timestamp:Number(x.timestamp)})).filter(x=>x.name&&Number.isFinite(x.timestamp));}catch{countdowns=[]}
-function persistCountdowns(){try{localStorage.setItem(EXAM_KEY,JSON.stringify(countdowns));return true}catch(e){examStatus.textContent="Could not save locally in this browser.";return false}}
-function fmtDate(d){return d.toLocaleDateString([],{day:"2-digit",month:"long",year:"numeric"})}function fmtTime(h,m,a){return `${pad(h)}:${pad(m)} ${a}`}
-function setExamLabels(){examDateLabel.textContent=examDraftDate?fmtDate(examDraftDate):"Choose date";examTimeLabel.textContent=fmtTime(examDraftHour,examDraftMinute,examDraftAmPm)}
-let calendarView="days";
-const monthNames=Array.from({length:12},(_,i)=>new Date(2000,i,1).toLocaleDateString([],{month:"long"}));
-function renderCalendar(){
- const y=calendarMonth.getFullYear(),m=calendarMonth.getMonth();
- let html=`<div class="calendar-head"><button class="calendar-nav" data-cal="prev" type="button">‹</button><div class="calendar-title-group"><button class="calendar-title-btn" data-cal="months" type="button">${monthNames[m]}</button><button class="calendar-title-btn calendar-year-btn" data-cal="years" type="button">${y}</button></div><button class="calendar-nav" data-cal="next" type="button">›</button></div>`;
- if(calendarView==="months"){
-   html+=`<div class="calendar-month-grid">${monthNames.map((name,i)=>`<button type="button" class="calendar-month${i===m?" selected":""}" data-month="${i}">${name}</button>`).join("")}</div>`;
- }else if(calendarView==="years"){
-   const currentYear=new Date().getFullYear(),startYear=Math.max(currentYear,y-4),endYear=startYear+23;
-   html+=`<div class="calendar-year-grid">${Array.from({length:endYear-startYear+1},(_,i)=>startYear+i).map(yr=>`<button type="button" class="calendar-year${yr===y?" selected":""}" data-year="${yr}">${yr}</button>`).join("")}</div>`;
- }else{
-   const first=new Date(y,m,1),days=new Date(y,m+1,0).getDate(),prevDays=new Date(y,m,0).getDate(),start=first.getDay();
-   html+=`<div class="calendar-week"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="calendar-grid">`;
-   for(let i=0;i<42;i++){const n=i-start+1;let dayDate;if(n<1)dayDate=new Date(y,m-1,prevDays+n);else if(n>days)dayDate=new Date(y,m+1,n-days);else dayDate=new Date(y,m,n);const muted=dayDate.getMonth()!==m,today=new Date(),selected=examDraftDate&&dayDate.toDateString()===examDraftDate.toDateString();html+=`<button type="button" class="calendar-day${muted?" muted":""}${dayDate.toDateString()===today.toDateString()?" today":""}${selected?" selected":""}" data-date="${dayDate.toISOString().slice(0,10)}">${dayDate.getDate()}</button>`}
-   html+=`</div>`;
- }
- html+=`<div class="calendar-footer"><button class="calendar-today" data-cal="today" type="button">Today</button><button class="calendar-today" data-cal="close" type="button">Done</button></div>`;
- calendarPopup.innerHTML=html;
-}
-examDateButton.addEventListener("click",()=>{calendarPopup.hidden=!calendarPopup.hidden;timePopup.hidden=true;if(!calendarPopup.hidden){calendarView="days";renderCalendar()}});
-calendarPopup.addEventListener("click",e=>{e.stopPropagation();const b=e.target.closest("button");if(!b)return;
- if(b.dataset.cal==="months"){calendarView="months";renderCalendar();return}
- if(b.dataset.cal==="years"){calendarView="years";renderCalendar();return}
- if(b.dataset.cal==="prev"){if(calendarView==="years"){calendarMonth=new Date(calendarMonth.getFullYear()-24,calendarMonth.getMonth(),1)}else if(calendarView==="months"){calendarMonth=new Date(calendarMonth.getFullYear()-1,calendarMonth.getMonth(),1)}else{calendarMonth=new Date(calendarMonth.getFullYear(),calendarMonth.getMonth()-1,1)}renderCalendar();return}
- if(b.dataset.cal==="next"){if(calendarView==="years"){calendarMonth=new Date(calendarMonth.getFullYear()+24,calendarMonth.getMonth(),1)}else if(calendarView==="months"){calendarMonth=new Date(calendarMonth.getFullYear()+1,calendarMonth.getMonth(),1)}else{calendarMonth=new Date(calendarMonth.getFullYear(),calendarMonth.getMonth()+1,1)}renderCalendar();return}
- if(b.dataset.month!==undefined){calendarMonth=new Date(calendarMonth.getFullYear(),Number(b.dataset.month),1);calendarView="days";renderCalendar();return}
- if(b.dataset.year!==undefined){calendarMonth=new Date(Number(b.dataset.year),calendarMonth.getMonth(),1);calendarView="days";renderCalendar();return}
- if(b.dataset.cal==="today"){examDraftDate=new Date();calendarMonth=new Date(examDraftDate.getFullYear(),examDraftDate.getMonth(),1);calendarView="days";renderCalendar();setExamLabels();return}
- if(b.dataset.cal==="close"){calendarPopup.hidden=true;return}
- if(b.dataset.date){const parts=b.dataset.date.split("-").map(Number);examDraftDate=new Date(parts[0],parts[1]-1,parts[2]);calendarMonth=new Date(parts[0],parts[1]-1,1);calendarView="days";setExamLabels();renderCalendar();}
-});
-function renderTimePicker(){timePopup.innerHTML=`<div class="time-picker-head"><strong>Select countdown time</strong><button class="calendar-today" data-time="done" type="button">Done</button></div><div class="time-wheel"><div class="time-wheel-col"><button data-time="hourDown" type="button">−</button><output>${pad(examDraftHour)}</output><button data-time="hourUp" type="button">+</button></div><div class="duration-colon">:</div><div class="time-wheel-col"><button data-time="minuteDown" type="button">−</button><output>${pad(examDraftMinute)}</output><button data-time="minuteUp" type="button">+</button></div><div class="ampm-toggle"><button data-time="AM" class="${examDraftAmPm==="AM"?"active":""}" type="button">AM</button><button data-time="PM" class="${examDraftAmPm==="PM"?"active":""}" type="button">PM</button></div></div>`}
-examTimeButton.addEventListener("click",()=>{timePopup.hidden=!timePopup.hidden;calendarPopup.hidden=true;renderTimePicker()});timePopup.addEventListener("click",e=>{e.stopPropagation();const b=e.target.closest("button");if(!b)return;const a=b.dataset.time;if(a==="done"){timePopup.hidden=true;return}if(a==="hourDown"||a==="hourUp")examDraftHour=((examDraftHour-1+(a==="hourUp"?1:-1)+12)%12)+1;if(a==="minuteDown"||a==="minuteUp")examDraftMinute=(examDraftMinute+(a==="minuteUp"?5:-5)+60)%60;if(a==="AM"||a==="PM")examDraftAmPm=a;renderTimePicker();setExamLabels()});
-function getExamTimestamp(){if(!examDraftDate)return null;let h=examDraftHour%12+(examDraftAmPm==="PM"?12:0);return new Date(examDraftDate.getFullYear(),examDraftDate.getMonth(),examDraftDate.getDate(),h,examDraftMinute,0,0).getTime()}
-function resetDraft(){examName.value="";examDraftDate=null;examDraftHour=12;examDraftMinute=0;examDraftAmPm="AM";calendarPopup.hidden=true;timePopup.hidden=true;setExamLabels()}
-function loadCountdownToDraft(id){const item=countdowns.find(x=>x.id===id);if(!item)return;activeCountdownId=id;const d=new Date(item.timestamp);examDraftDate=new Date(d.getFullYear(),d.getMonth(),d.getDate());let h=d.getHours();examDraftAmPm=h>=12?"PM":"AM";examDraftHour=h%12||12;examDraftMinute=d.getMinutes();calendarMonth=new Date(examDraftDate.getFullYear(),examDraftDate.getMonth(),1);examName.value=item.name||"";setExamLabels();editExamButton.hidden=false;deleteExamButton.hidden=false;saveExamButton.textContent="Update Countdown"}
-function countdownRemaining(ts){const target=Number(ts),diff=target-Date.now();if(!Number.isFinite(target))return "Invalid date";if(diff<=0)return "Completed";const total=Math.ceil(diff/1000),d=Math.floor(total/86400),h=Math.floor((total%86400)/3600),m=Math.floor((total%3600)/60),sec=total%60;return `${d}d ${pad(h)}h ${pad(m)}m ${pad(sec)}s remaining`;}
-function renderCountdownList(){countdownCountEl.textContent=`${countdowns.length} saved`;savedCountdownsEl.innerHTML=countdowns.length?countdowns.map(x=>{const expired=x.timestamp<=Date.now();const safeName=String(x.name||"Countdown").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));return `<div class="saved-countdown ${expired?"is-expired":""}" data-countdown-id="${x.id}"><div class="saved-countdown-main"><strong>${safeName}</strong><span class="saved-countdown-remaining">${countdownRemaining(x.timestamp)}</span><small>${new Date(x.timestamp).toLocaleString([], {dateStyle:"medium",timeStyle:"short"})}</small></div><div class="saved-countdown-actions"><button class="secondary-btn" data-edit-countdown="${x.id}" type="button">Edit</button><button class="danger-btn" data-delete-countdown="${x.id}" type="button">Delete</button></div></div>`}).join(""):'<div class="recent-empty">No countdowns saved yet.</div>'}
-function renderExam(){const active=countdowns.find(x=>x.id===activeCountdownId)||countdowns[0];if(!active){examStatus.textContent="No countdown saved.";[examDays,examHours,examMinutes,examSeconds].forEach((el,i)=>el.textContent=i===0?"0":"00");renderCountdownList();return}activeCountdownId=active.id;const timestamp=Number(active.timestamp),diff=timestamp-Date.now();if(!Number.isFinite(timestamp)||diff<=0){examStatus.textContent=`${active.name||"Countdown"} — completed / expired.`;examDays.textContent="0";examHours.textContent="00";examMinutes.textContent="00";examSeconds.textContent="00"}else{const total=Math.ceil(diff/1000);examStatus.textContent=`${active.name||"Countdown"} · ${new Date(timestamp).toLocaleString([], {dateStyle:"medium",timeStyle:"short"})}`;examDays.textContent=String(Math.floor(total/86400));examHours.textContent=pad(Math.floor((total%86400)/3600));examMinutes.textContent=pad(Math.floor((total%3600)/60));examSeconds.textContent=pad(total%60)}renderCountdownList()}
-saveExamButton.addEventListener("click",()=>{const ts=getExamTimestamp(),name=examName.value.trim();if(!name||!ts){examStatus.textContent="Choose a countdown name, date and time first.";return}if(ts<=Date.now()){examStatus.textContent="Choose a future countdown date and time.";return}const editingId=activeCountdownId&&countdowns.some(x=>x.id===activeCountdownId)?activeCountdownId:null;if(editingId){const item=countdowns.find(x=>x.id===editingId);item.name=name;item.timestamp=ts}else{const id=`cd_${Date.now()}_${Math.random().toString(36).slice(2,8)}`;countdowns.unshift({id,name,timestamp:ts});activeCountdownId=id}persistCountdowns();const savedName=name;resetDraft();editExamButton.hidden=true;deleteExamButton.hidden=true;saveExamButton.textContent="Save Countdown";examStatus.textContent=`${savedName} saved successfully.`;renderExam()});
-editExamButton.addEventListener("click",()=>{if(activeCountdownId)loadCountdownToDraft(activeCountdownId);examName.focus()});deleteExamButton.addEventListener("click",()=>{if(!activeCountdownId)return;countdowns=countdowns.filter(x=>x.id!==activeCountdownId);persistCountdowns();activeCountdownId=countdowns[0]?.id||null;resetDraft();editExamButton.hidden=true;deleteExamButton.hidden=true;saveExamButton.textContent="Save Countdown";renderExam()});
-clearExamButton.addEventListener("click",()=>{activeCountdownId=null;resetDraft();editExamButton.hidden=true;deleteExamButton.hidden=true;saveExamButton.textContent="Save Countdown";renderExam()});
-savedCountdownsEl.addEventListener("click",e=>{const edit=e.target.closest("[data-edit-countdown]"),del=e.target.closest("[data-delete-countdown]");if(edit){loadCountdownToDraft(edit.dataset.editCountdown);examName.focus()}if(del){const id=del.dataset.deleteCountdown;countdowns=countdowns.filter(x=>x.id!==id);if(activeCountdownId===id)activeCountdownId=countdowns[0]?.id||null;persistCountdowns();renderExam()}});
-if(countdowns.length)activeCountdownId=countdowns[0].id;renderExam();setInterval(renderExam,250);document.addEventListener("click",e=>{if(!e.target.closest(".visual-field")){calendarPopup.hidden=true;timePopup.hidden=true}});
+/* Countdown — isolated, reliable local save + clean visual picker */
+(()=>{
+  const $=id=>document.getElementById(id);
+  const nameEl=$("examName"),dateBtn=$("examDateButton"),timeBtn=$("examTimeButton"),
+        dateLabel=$("examDateLabel"),timeLabel=$("examTimeLabel"),cal=$("calendarPopup"),
+        timePop=$("timePopup"),status=$("examStatus"),daysEl=$("examDays"),hoursEl=$("examHours"),
+        minsEl=$("examMinutes"),secsEl=$("examSeconds"),saveBtn=$("saveExamButton"),
+        editBtn=$("editExamButton"),deleteBtn=$("deleteExamButton"),clearBtn=$("clearExamButton"),
+        listEl=$("savedCountdowns"),countEl=$("countdownCount");
 
-/* Advanced Calculator */
+  if(!nameEl||!dateBtn||!timeBtn||!dateLabel||!timeLabel||!cal||!timePop||!status||
+     !daysEl||!hoursEl||!minsEl||!secsEl||!saveBtn||!editBtn||!deleteBtn||!clearBtn||!listEl||!countEl) return;
+
+  const KEY="rafaFocusCountdowns_v4";
+  const OLD_KEYS=["rafaFocusCountdowns_v3","rafaFocusCountdowns_v2","rafaFocusCountdown"];
+  let items=[],activeId=null,draftDate=null,draftHour=12,draftMinute=0,draftAmPm="AM";
+  let viewDate=new Date(new Date().getFullYear(),new Date().getMonth(),1),viewMode="days";
+
+  const pad=n=>String(n).padStart(2,"0");
+  const escapeHtml=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  function readSaved(){
+    let raw=null;
+    try{
+      raw=localStorage.getItem(KEY);
+      if(raw===null) for(const k of OLD_KEYS){const v=localStorage.getItem(k);if(v!==null){raw=v;break}}
+      const parsed=JSON.parse(raw||"[]");
+      const arr=Array.isArray(parsed)?parsed:(parsed&&parsed.timestamp?[parsed]:[]);
+      items=arr.map(x=>({id:String(x.id||("cd_"+Date.now()+"_"+Math.random().toString(36).slice(2))),
+        name:String(x.name||"Countdown").trim(),timestamp:Number(x.timestamp)}))
+        .filter(x=>x.name&&Number.isFinite(x.timestamp));
+    }catch{items=[]}
+  }
+  function persist(){
+    try{
+      localStorage.setItem(KEY,JSON.stringify(items));
+      const check=JSON.parse(localStorage.getItem(KEY)||"[]");
+      if(!Array.isArray(check)||check.length!==items.length) throw new Error("save verification failed");
+      return true;
+    }catch(e){
+      status.textContent="Save failed in this browser. Try opening RafaFocus on http://localhost.";
+      return false;
+    }
+  }
+  function fmtDate(d){return d.toLocaleDateString([],{day:"2-digit",month:"long",year:"numeric"})}
+  function fmtTime(){return `${pad(draftHour)}:${pad(draftMinute)} ${draftAmPm}`}
+  function labels(){dateLabel.textContent=draftDate?fmtDate(draftDate):"Choose date";timeLabel.textContent=fmtTime()}
+  function timestamp(){
+    if(!draftDate)return null;
+    let h=draftHour%12+(draftAmPm==="PM"?12:0);
+    return new Date(draftDate.getFullYear(),draftDate.getMonth(),draftDate.getDate(),h,draftMinute,0,0).getTime();
+  }
+  function renderCalendar(){
+    const y=viewDate.getFullYear(),m=viewDate.getMonth();
+    let out=`<div class="calendar-head"><button class="calendar-nav" data-cal="prev" type="button">‹</button>
+      <div class="calendar-title-group"><button class="calendar-title-btn" data-cal="months" type="button">${viewDate.toLocaleDateString([],{month:"long"})}</button>
+      <button class="calendar-title-btn calendar-year-btn" data-cal="years" type="button">${y}</button></div>
+      <button class="calendar-nav" data-cal="next" type="button">›</button></div>`;
+    if(viewMode==="months"){
+      out+=`<div class="calendar-month-grid">${Array.from({length:12},(_,i)=>new Date(y,i,1).toLocaleDateString([],{month:"short"})).map((n,i)=>`<button type="button" class="calendar-month ${i===m?"selected":""}" data-month="${i}">${n}</button>`).join("")}</div>`;
+    }else if(viewMode==="years"){
+      const start=Math.max(new Date().getFullYear(),y-4);
+      out+=`<div class="calendar-year-grid">${Array.from({length:24},(_,i)=>start+i).map(yr=>`<button type="button" class="calendar-year ${yr===y?"selected":""}" data-year="${yr}">${yr}</button>`).join("")}</div>`;
+    }else{
+      const first=new Date(y,m,1),total=new Date(y,m+1,0).getDate(),prevTotal=new Date(y,m,0).getDate(),offset=first.getDay();
+      out+=`<div class="calendar-week">${["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].map(x=>`<span>${x}</span>`).join("")}</div><div class="calendar-grid">`;
+      for(let i=0;i<42;i++){
+        const n=i-offset+1,d=n<1?new Date(y,m-1,prevTotal+n):n>total?new Date(y,m+1,n-total):new Date(y,m,n);
+        const selected=draftDate&&d.toDateString()===draftDate.toDateString();
+        const today=d.toDateString()===new Date().toDateString();
+        out+=`<button type="button" class="calendar-day ${d.getMonth()!==m?"muted":""} ${today?"today":""} ${selected?"selected":""}" data-date="${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}">${d.getDate()}</button>`;
+      }
+      out+="</div>";
+    }
+    out+=`<div class="calendar-footer"><button class="calendar-today" data-cal="today" type="button">Today</button><button class="calendar-today calendar-done" data-cal="close" type="button">Done</button></div>`;
+    cal.innerHTML=out;
+  }
+  function renderTime(){
+    timePop.innerHTML=`<div class="time-picker-head"><div><strong>Select time</strong><small>Set the exact exam time</small></div><button class="calendar-today" data-time="done" type="button">Done</button></div>
+      <div class="time-wheel"><div class="time-wheel-col"><button data-time="hourDown" type="button">−</button><output>${pad(draftHour)}</output><button data-time="hourUp" type="button">+</button></div>
+      <div class="duration-colon">:</div><div class="time-wheel-col"><button data-time="minuteDown" type="button">−</button><output>${pad(draftMinute)}</output><button data-time="minuteUp" type="button">+</button></div>
+      <div class="ampm-toggle"><button data-time="AM" class="${draftAmPm==="AM"?"active":""}" type="button">AM</button><button data-time="PM" class="${draftAmPm==="PM"?"active":""}" type="button">PM</button></div></div>`;
+  }
+  function render(){
+    countEl.textContent=`${items.length} saved`;
+    listEl.innerHTML=items.length?items.map(x=>{
+      const expired=x.timestamp<=Date.now();
+      return `<div class="saved-countdown ${expired?"is-expired":""}" data-countdown-id="${escapeHtml(x.id)}"><div class="saved-countdown-main"><strong>${escapeHtml(x.name)}</strong><span>${remaining(x.timestamp)}</span><small>${new Date(x.timestamp).toLocaleString([],{dateStyle:"medium",timeStyle:"short"})}</small></div><div class="saved-countdown-actions"><button class="secondary-btn" data-edit-countdown="${escapeHtml(x.id)}" type="button">Edit</button><button class="danger-btn" data-delete-countdown="${escapeHtml(x.id)}" type="button">Delete</button></div></div>`;
+    }).join(""):`<div class="recent-empty">No countdowns saved yet.</div>`;
+    const active=items.find(x=>x.id===activeId)||items[0];
+    if(!active){activeId=null;status.textContent="No countdown saved.";daysEl.textContent="0";hoursEl.textContent="00";minsEl.textContent="00";secsEl.textContent="00";return}
+    activeId=active.id;
+    const diff=active.timestamp-Date.now();
+    if(diff<=0){status.textContent=`${active.name} · Completed`;daysEl.textContent="0";hoursEl.textContent="00";minsEl.textContent="00";secsEl.textContent="00";return}
+    const total=Math.ceil(diff/1000);
+    status.textContent=`${active.name} · ${new Date(active.timestamp).toLocaleString([],{dateStyle:"medium",timeStyle:"short"})}`;
+    daysEl.textContent=String(Math.floor(total/86400));hoursEl.textContent=pad(Math.floor(total%86400/3600));minsEl.textContent=pad(Math.floor(total%3600/60));secsEl.textContent=pad(total%60);
+  }
+  function remaining(ts){const diff=Number(ts)-Date.now();if(diff<=0)return"Completed";const t=Math.ceil(diff/1000);return`${Math.floor(t/86400)}d ${pad(Math.floor(t%86400/3600))}h ${pad(Math.floor(t%3600/60))}m ${pad(t%60)}s remaining`}
+  function reset(){nameEl.value="";draftDate=null;draftHour=12;draftMinute=0;draftAmPm="AM";activeId=null;cal.hidden=true;timePop.hidden=true;saveBtn.textContent="Save Countdown";editBtn.hidden=true;deleteBtn.hidden=true;labels()}
+  function load(id){const x=items.find(v=>v.id===id);if(!x)return;activeId=x.id;const d=new Date(x.timestamp),h=d.getHours();nameEl.value=x.name;draftDate=new Date(d.getFullYear(),d.getMonth(),d.getDate());draftHour=h%12||12;draftMinute=d.getMinutes();draftAmPm=h>=12?"PM":"AM";viewDate=new Date(d.getFullYear(),d.getMonth(),1);labels();saveBtn.textContent="Update Countdown";editBtn.hidden=false;deleteBtn.hidden=false;renderCalendar()}
+
+  dateBtn.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();timePop.hidden=true;cal.hidden=!cal.hidden;if(!cal.hidden){viewMode="days";renderCalendar()}});
+  cal.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;e.preventDefault();e.stopPropagation();
+    const a=b.dataset.cal;
+    if(a==="prev"){viewDate=new Date(viewDate.getFullYear()-(viewMode==="years"?24:viewMode==="months"?1:0),viewDate.getMonth()-(viewMode==="days"?1:0),1);renderCalendar();return}
+    if(a==="next"){viewDate=new Date(viewDate.getFullYear()+(viewMode==="years"?24:0),viewDate.getMonth()+(viewMode==="days"?1:viewMode==="months"?1:0),1);renderCalendar();return}
+    if(a==="months"){viewMode="months";renderCalendar();return}
+    if(a==="years"){viewMode="years";renderCalendar();return}
+    if(a==="today"){draftDate=new Date();viewDate=new Date(draftDate.getFullYear(),draftDate.getMonth(),1);viewMode="days";labels();renderCalendar();return}
+    if(a==="close"){cal.hidden=true;return}
+    if(b.dataset.month!==undefined){viewDate=new Date(viewDate.getFullYear(),Number(b.dataset.month),1);viewMode="days";renderCalendar();return}
+    if(b.dataset.year!==undefined){viewDate=new Date(Number(b.dataset.year),viewDate.getMonth(),1);viewMode="days";renderCalendar();return}
+    if(b.dataset.date){const [yy,mm,dd]=b.dataset.date.split("-").map(Number);draftDate=new Date(yy,mm-1,dd);viewDate=new Date(yy,mm-1,1);labels();renderCalendar();return}
+  });
+  timeBtn.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();cal.hidden=true;timePop.hidden=!timePop.hidden;if(!timePop.hidden)renderTime()});
+  timePop.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;e.preventDefault();e.stopPropagation();const a=b.dataset.time;
+    if(a==="done"){timePop.hidden=true;return}
+    if(a==="hourDown"||a==="hourUp")draftHour=((draftHour-1+(a==="hourUp"?1:-1)+12)%12)+1;
+    if(a==="minuteDown"||a==="minuteUp")draftMinute=(draftMinute+(a==="minuteUp"?5:-5)+60)%60;
+    if(a==="AM"||a==="PM")draftAmPm=a;labels();renderTime();
+  });
+  saveBtn.addEventListener("click",e=>{
+    e.preventDefault();e.stopPropagation();
+    const name=nameEl.value.trim(),ts=timestamp();
+    if(!name||!draftDate){status.textContent="Enter an exam name and choose a date first.";return}
+    if(!Number.isFinite(ts)||ts<=Date.now()){status.textContent="Choose a future date and time.";return}
+    const existing=activeId?items.find(x=>x.id===activeId):null;
+    if(existing){existing.name=name;existing.timestamp=ts}else{activeId="cd_"+Date.now()+"_"+Math.random().toString(36).slice(2,8);items.unshift({id:activeId,name,timestamp:ts})}
+    if(!persist()){if(!existing)items=items.filter(x=>x.id!==activeId);return}
+    status.textContent=`✓ ${name} saved successfully.`;
+    render();
+    cal.hidden=true;timePop.hidden=true;saveBtn.textContent="Save Countdown";editBtn.hidden=true;deleteBtn.hidden=true;
+    nameEl.value="";draftDate=null;draftHour=12;draftMinute=0;draftAmPm="AM";labels();
+  });
+  editBtn.addEventListener("click",()=>load(activeId));
+  deleteBtn.addEventListener("click",()=>{if(!activeId)return;items=items.filter(x=>x.id!==activeId);persist();reset();render()});
+  clearBtn.addEventListener("click",()=>{reset();render()});
+  listEl.addEventListener("click",e=>{const ed=e.target.closest("[data-edit-countdown]"),del=e.target.closest("[data-delete-countdown]");if(ed){load(ed.dataset.editCountdown);return}if(del){items=items.filter(x=>x.id!==del.dataset.deleteCountdown);if(activeId===del.dataset.deleteCountdown)activeId=items[0]?.id||null;persist();render()}});
+  document.addEventListener("click",e=>{if(!e.target.closest(".visual-field")){cal.hidden=true;timePop.hidden=true}});
+  readSaved();if(items.length)activeId=items[0].id;labels();renderCalendar();render();setInterval(render,500);
+})();/* Advanced Calculator */
 const calcExpression=document.getElementById("calcExpression"),calcResult=document.getElementById("calcResult"),calcHistory=document.getElementById("calcHistory");let calcExpr="",calcAns=0,calcMemory=0,calcHistoryData=[],calcAngleMode="DEG";
 try{calcHistoryData=JSON.parse(localStorage.getItem("rafaFocusCalcHistory")||"[]");if(!Array.isArray(calcHistoryData))calcHistoryData=[];calcMemory=Number(localStorage.getItem("rafaFocusCalcMemory")||0)||0;calcAns=Number(localStorage.getItem("rafaFocusCalcAns")||0)||0;calcAngleMode=localStorage.getItem("rafaFocusCalcAngle")||"DEG"}catch{}
 function saveCalcData(){try{localStorage.setItem("rafaFocusCalcHistory",JSON.stringify(calcHistoryData.slice(0,50)));localStorage.setItem("rafaFocusCalcMemory",String(calcMemory));localStorage.setItem("rafaFocusCalcAns",String(calcAns));localStorage.setItem("rafaFocusCalcAngle",calcAngleMode)}catch{}}
